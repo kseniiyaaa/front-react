@@ -37,7 +37,7 @@ class Content extends Component {
       if (!document.getElementById('image')) {
         const newImage = document.createElement('img');
         newImage.id = 'image';
-        newImage.src = 'http://surl.li/zevevg';
+        newImage.src = 'https://cdn.tripzaza.com/ru/destinations/wp-content/uploads/2018/06/Dostoprimechatelnosti-Venyi-e1528946011635.jpg';
         newImage.alt = 'Відень, Австрія';
         newImage.width = 600;
         imageContainer.appendChild(newImage);
